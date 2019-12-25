@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: block;
+}
+.clearfix:after {
+clear: both;
+}
+body {
+	font-family: Arial, sans-serif;
+	color: #222222;
+	background: black;
+}
+div {
+	box-sizing: border-box;
+}
+.logo {
+	float: left;
+}
+menu{
+	background-image: url(../img/header.png);
+	background-attachment: fixed;
+	height: 63px;
+	padding-right: 100%;
+	position: fixed;
+}
+#ii{
+	position: fixed;
+	margin-top:-1.5%;
+	margin-left:-2%;
+}
+menu>div>div>nav {
+	margin-top: 1.5%;
+	margin-left: 55%;
+	position: fixed;
+}.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 2.5625em;
+}
+
+.menu a {
+	color: #f10000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+section{
+	width: 100%;
+}
+#title{
+	display: block;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	height: 10%;
+	background: #241629;
+}
+#title1{
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+#b{
+	display: block;
+	float: left;
+	padding-left: 5%;
+}
+header{
+	background: #000;
+	height: 63px;
+}
+#d{
+	margin-top: 1.5%;
+	margin-left: 20em;
+	margin-bottom: 1em;
+	text-align: left;
+	font-size: 25px;
+	color: #fff;
+}

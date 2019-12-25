@@ -1,0 +1,202 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+menu{
+	height: 10%;
+	margin:0;
+	padding: 0;
+	padding-right: 100%;
+	position: fixed;
+}
+
+header {
+	padding: 10%;
+	background: url(../img/first-bg.jpg) no-repeat center;
+	height: 110%;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+}
+
+#ii{
+	position: fixed;
+	margin-top:-1.5%;
+	margin-left:-2%;
+}
+nav {
+	display: flex;
+	margin-top: 1.5%;
+	margin-left: 50%;
+	position: fixed;
+}
+
+.menu {
+
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 2.5625em;
+}
+
+.menu a {
+	color: #f10000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: center;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 6px;
+	display: block;
+	width: 240px;
+	padding: 20px 0px 20px 0px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 14%;
+}
+
+.title {
+	padding-top: 7%;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+}
+#videocard {
+	background: #f7f7f7;
+	padding-bottom: 4%;
+}
+
+.characteristics {
+	;
+
+}
+#characteristics{
+	background: url(../img/icon1.png) no-repeat center top / cover;
+	height: 100%;
+}
+.characteristics__item p {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.55em;
+}
+.characteristic{
+
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.characteristic ul{
+color:#fff;
+font-size: 14px;
+
+}
+.characteristic li{
+color:#fff;
+font-size: 14px;
+
+}
+h3{
+ color:#ffffff;
+ font-size: 25px;
+}
+#id1{
+	margin-bottom:3%;
+}
+#id2{
+	margin-bottom:3%;
+}
+.about{
+margin-bottom: 15%;
+padding-left: 15%;
+display: block;
+float: left;
+}
+#pi{
+	float: right;
+}
+.titlee {
+	padding-top: 4%;
+}
+
+.titlee h2 {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+footer{
+	background: url(../img/header.png) no-repeat center top / cover;
+	color: #fff;
+	font-size: 20px;
+}
+footer>div>ul>li{
+	display: block;
+}
+footer>div>ul>li>ul>li{
+	display: block;
+}
+#cl{
+	float: left;
+}
+#cll{
+	float: right;
+	padding-right: 20%;
+}
